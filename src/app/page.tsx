@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Home() {
   return (
@@ -43,9 +43,7 @@ export default function Home() {
               <h1 className="text-6xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500 mb-4">
                 TIMDOST.COM
               </h1>
-              <p className="text-xl text-blue-200">
-                Creative Developer & Human Being
-              </p>
+              <p className="text-xl text-blue-200">Creative & App Developer</p>
             </motion.div>
 
             {/* Coming soon section */}
@@ -84,9 +82,8 @@ export default function Home() {
               className="max-w-2xl mx-auto my-8"
             >
               <p className="text-lg text-gray-300 leading-relaxed">
-                In the meantime, feel free to look around. I&apos;m working on
-                something simple but meaningful to share my journey in web
-                development.
+                Thanks for visiting my new website! Feel free to drop me a
+                message to work on your next project :)
               </p>
             </motion.div>
 
@@ -100,20 +97,19 @@ export default function Home() {
               {[
                 {
                   icon: Github,
-                  href: "https://github.com/yourusername",
+                  href: "https://github.com/timdost",
                   label: "GitHub",
                 },
                 {
                   icon: Linkedin,
-                  href: "https://linkedin.com/in/yourusername",
+                  href: "https://linkedin.com/in/timdost",
                   label: "LinkedIn",
                 },
                 {
-                  icon: Twitter,
-                  href: "https://twitter.com/yourusername",
-                  label: "Twitter",
+                  icon: Mail,
+                  href: "mailto:hi@timdost.com",
+                  label: "Email",
                 },
-                { icon: Mail, href: "mailto:your@email.com", label: "Email" },
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}

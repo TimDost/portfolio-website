@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Tim Dost - Creative Developer",
+  title: "Tim Dost - Creative & App Developer",
   description:
-    "Portfolio website of Tim Dost, a creative developer and human being.",
+    "Portfolio website of Tim Dost, a creative and app developer specializing in frontend, software, and app development.",
 };
 
 export default function RootLayout({
